@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Prompt Ideas – Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0f172a;
+            color: #e5e7eb;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+            background: #111827;
+            border-bottom: 1px solid #1f2937;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 0.95rem;
+            color: #9ca3af;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .prompt-grid {
+            display: grid;
+            gap: 16px;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        }
+        .card {
+            background: #111827;
+            border-radius: 12px;
+            padding: 16px;
+            border: 1px solid #1f2937;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        .badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            border-radius: 999px;
+            background: #1d4ed8;
+            margin-bottom: 8px;
+        }
+        .card h2 {
+            font-size: 1rem;
+            margin: 0 0 8px;
+        }
+        .card p {
+            font-size: 0.85rem;
+            margin: 0 0 8px;
+            color: #d1d5db;
+        }
+        .prompt {
+            font-family: "Consolas", monospace;
+            font-size: 0.8rem;
+            background: #020617;
+            border-radius: 8px;
+            padding: 8px;
+            border: 1px solid #1f2937;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8rem;
+            color: #6b7280;
+        }
+        a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI Prompt Ideas</h1>
+        <p>A mini portfolio page by Mahamed Muhumed – showcasing interest in Generative AI.</p>
+    </header>
+
+    <div class="container">
+        <h2>Curated Prompt Examples</h2>
+        <p>Below are some example prompts I designed for working with large language models and generative AI tools.</p>
+
+        <div class="prompt-grid">
+            <div class="card">
+                <span class="badge">Coding</span>
+                <h2>Refactor Legacy Code</h2>
+                <p>Prompt designed to improve old code while keeping the same behaviour.</p>
+                <div class="prompt">
+                    "Here is a C# method from an old project. Refactor it to improve readability and maintainability. 
+                    Add comments explaining the logic and suggest any edge cases I should test for:
+                    ```csharp
+                    // paste method here
+                    ```"
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="badge">Learning</span>
+                <h2>Explain Concepts Simply</h2>
+                <p>Prompt to break down complex technical topics for beginners.</p>
+                <div class="prompt">
+                    "Explain how a relational database works to a beginner. 
+                    Use simple language and a real-life example, then give 5 practice questions."
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="badge">Productivity</span>
+                <h2>Study Plan Generator</h2>
+                <p>Prompt to create structured revision plans for exams or coursework.</p>
+                <div class="prompt">
+                    "Create a 2-week revision plan for my T-Level Digital Production and Development exam. 
+                    Include daily tasks, practice questions and recap days."
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Built with HTML &amp; CSS as part of my portfolio for a Generative AI placement.
+    </footer>
+</body>
+</html>
